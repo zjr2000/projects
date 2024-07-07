@@ -25,8 +25,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>Reflective Instruction Tuning</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -182,6 +182,26 @@
   </section>
   <!-- End paper abstract -->
 
+  <!-- Dataset Collection pipeline -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- Paper pipeline. -->
+          <h2 class="title is-3">Model</h2>
+          <div class="content has-text-justified">
+            <p>
+              <b>Overview of the REVERIE dataset's data collection pipeline.</b> We first employ Gemini-Vision-Pro to annotate the instructions, responses and rationales for each image. Gemini-Pro is then used to check consistency between positive and negative rationales. Inconsistent samples are filtered to maintain dataset quality.
+            </p>
+          </div>
+          <img src="static/images/pipeline.png" alt="MY ALT TEXT"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Model -->
 
   <!-- Image carousel -->
   <section class="hero is-small">
@@ -223,87 +243,13 @@
   <!-- End image carousel -->
 
 
-
-
-  <!-- Youtube video -->
-  <section class="hero is-small is-light">
-    <div class="hero-body">
-      <div class="container">
-        <!-- Paper video. -->
-        <h2 class="title is-3">Video Presentation</h2>
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-
-            <div class="publication-video">
-              <!-- Youtube embed code here -->
-              <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End youtube video -->
-
-
-  <!-- Video carousel -->
-  <section class="hero is-small">
-    <div class="hero-body">
-      <div class="container">
-        <h2 class="title is-3">Another Carousel</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-video1">
-            <video poster="" id="video1" autoplay controls muted loop height="100%">
-              <!-- Your video file here -->
-              <source src="static/videos/carousel1.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item item-video2">
-            <video poster="" id="video2" autoplay controls muted loop height="100%">
-              <!-- Your video file here -->
-              <source src="static/videos/carousel2.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item item-video3">
-            <video poster="" id="video3" autoplay controls muted loop height="100%">\
-              <!-- Your video file here -->
-              <source src="static/videos/carousel3.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End video carousel -->
-
-
-
-
-
-
-  <!-- Paper poster -->
-  <section class="hero is-small is-light">
-    <div class="hero-body">
-      <div class="container">
-        <h2 class="title">Poster</h2>
-
-        <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
-        </iframe>
-
-      </div>
-    </div>
-  </section>
-  <!--End paper poster -->
-
-
   <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-  </section>
+  </section> -->
   <!--End BibTex citation -->
 
 
